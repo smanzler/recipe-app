@@ -8,7 +8,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Recipe</Text>
+      <ThemedText style={styles.title}>Recipe</ThemedText>
     </View>
   );
 }
@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
     padding: 20
   },
   title: {
-    color: "white",
     fontSize: 30
   }
 });
