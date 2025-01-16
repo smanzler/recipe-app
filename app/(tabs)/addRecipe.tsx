@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
+    paddingTop: 10,
     fontSize: 30,
   },
   input: {
